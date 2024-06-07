@@ -1,8 +1,8 @@
-package JavaBasico;
+package Condicionais;
 
 import java.util.Scanner;
 
-public class Calculadora {
+public class Exc07 {
     public static void main(String[] args) {
         double valor1, valor2, resultado;
         boolean encerrar = false;

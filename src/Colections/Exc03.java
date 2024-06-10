@@ -1,6 +1,7 @@
 package Colections;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Exc03 {
@@ -13,8 +14,14 @@ public class Exc03 {
             mySet.add(val);
         }
 
-        for(Integer i : mySet){
-            System.out.println(i);
+        //for (Integer i : mySet) {
+        //    System.out.println(i);
+        //}
+
+        Iterator<Integer> iMySet = mySet.iterator();
+
+        while(iMySet.hasNext()) {
+            System.out.println(iMySet.next());
         }
     }
 }

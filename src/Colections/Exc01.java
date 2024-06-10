@@ -18,8 +18,6 @@ public class Exc01 {
         }
 
         System.out.println("Todas as cores: ");
-        System.out.println(cores);
-
         Collections.sort(cores);
 
         System.out.println("Cores Ordenadas: ");

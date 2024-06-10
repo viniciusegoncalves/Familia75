@@ -32,7 +32,7 @@ public class Exc02 {
                     break;
                 case 3:
                     if (livros.size() == 0) {
-                        System.out.println("A pilha está vazia!");
+                        System.out.println("A pilha está vazia!!");
                         break;
                     } else {
                         livros.pop();

@@ -19,7 +19,6 @@ public class Exc01 {
             System.out.println("Entre com a opçao desejada: ");
             op = sc.nextInt();
             sc.nextLine();
-
             switch (op){
                 case 1:
                     System.out.println("Digite um nome: ");
@@ -32,7 +31,7 @@ public class Exc01 {
                     break;
                 case 3:
                     if(chegadaCLientes.size() == 0) {
-                        System.out.println("A Fila está vazia!");
+                        System.out.println("A Fila está vazia!!");
                         break;
                     }else {
                         chegadaCLientes.remove();
